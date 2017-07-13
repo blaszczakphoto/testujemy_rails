@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: testujemy_rails_production
-  username: testujemy_rails
+  database: profiart_tr
+  username: profiart_tr
   password: <%= ENV['TESTUJEMY_RAILS_DATABASE_PASSWORD'] %>
