@@ -83,3 +83,4 @@ production:
   database: profiart_tr
   username: profiart_tr
   password: <%= ENV['TESTUJEMY_RAILS_DATABASE_PASSWORD'] %>
+  host: 127.0.0.1
